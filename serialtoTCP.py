@@ -8,7 +8,7 @@ ADDR = (HOST, PORT)
 
 
 def main():
-    global isconn
+
     sock = socket.socket()
     sock.bind(ADDR)
     sock.listen(1)
