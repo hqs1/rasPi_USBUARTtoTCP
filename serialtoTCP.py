@@ -5,7 +5,6 @@ import time
 HOST = "0.0.0.0"
 PORT = 9000
 ADDR = (HOST, PORT)
-isconn = False
 
 
 def main():
